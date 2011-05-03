@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="CodingDojoHelper.Views.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:rgn="clr-namespace:Microsoft.Practices.Composite.Presentation.Regions;assembly=Microsoft.Practices.Composite.Presentation">
+    <Viewbox>
+        <ContentControl rgn:RegionManager.RegionName="MainRegion"
+                    HorizontalContentAlignment="Stretch"
+                    HorizontalAlignment="Stretch"
+                    VerticalContentAlignment="Stretch"
+                    VerticalAlignment="Stretch"/>
+    </Viewbox>
+</UserControl>

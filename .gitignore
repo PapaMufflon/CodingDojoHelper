@@ -1,0 +1,6 @@
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+_ReSharper.*
+*.sln.cach

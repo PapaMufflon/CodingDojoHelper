@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A85CD74C-C731-4F1A-B910-1301AF5AFA6D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodingDojoHelper</RootNamespace>
+    <AssemblyName>CodingDojoHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AmCharts.Windows">
+      <HintPath>..\External Libraries\amCharts\AmCharts.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\External Libraries\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="CodingDojo.cs" />
+    <Compile Include="Converter\KeyToStringConverter.cs" />
+    <Compile Include="Converter\TimeSpanToCycleTimeConverter.cs" />
+    <Compile Include="Converter\TimeSpanToHoursMinutesConverter.cs" />
+    <Compile Include="Converter\TimeSpanToMillisecondsConverter.cs" />
+    <Compile Include="Converter\TimeSpanToMinutesSecondsConverter.cs" />
+    <Compile Include="Events\KataFinishedEvent.cs" />
+    <Compile Include="Events\ResetKataEvent.cs" />
+    <Compile Include="Events\ShowAdvancedConfigEvent.cs" />
+    <Compile Include="Events\StartKataEvent.cs" />
+    <Compile Include="Helper\AdornerAttachedProperty.cs" />
+    <Compile Include="Helper\BooleanToTextConverter.cs" />
+    <Compile Include="Helper\BounceStepEventArgs.cs" />
+    <Compile Include="Helper\DelegateCommand.cs" />
+    <Compile Include="Helper\DojoStopwatch.cs" />
+    <Compile Include="Helper\GifImage.cs" />
+    <Compile Include="Helper\GreyDisabledBackgroundAdorner.cs" />
+    <Compile Include="Helper\InterceptKeys.cs" />
+    <Compile Include="Helper\Interfaces\IInterceptKeys.cs" />
+    <Compile Include="Helper\Interfaces\IKombatSoundPlayer.cs" />
+    <Compile Include="Helper\Interfaces\ISession.cs" />
+    <Compile Include="Helper\Interfaces\ISoundPlayer.cs" />
+    <Compile Include="Helper\Interfaces\IStopwatch.cs" />
+    <Compile Include="Helper\Interfaces\ValueChangedEventArgs.cs" />
+    <Compile Include="Helper\KeyInterceptedEventArgs.cs" />
+    <Compile Include="Helper\KombatSoundPlayer.cs" />
+    <Compile Include="Helper\ParameterlessDelegateCommand.cs" />
+    <Compile Include="Helper\PlaylistSoundPlayer.cs" />
+    <Compile Include="Helper\Session.cs" />
+    <Compile Include="Helper\SimpleAdorner.cs" />
+    <Compile Include="Helper\StopwatchItem.cs" />
+    <Compile Include="ICodingDojo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ViewModels\AdvancedConfigViewModel.cs" />
+    <Compile Include="ViewModels\ConfigViewModel.cs" />
+    <Compile Include="ViewModels\DigestViewModel.cs" />
+    <Compile Include="ViewModels\DojoViewModel.cs" />
+    <Compile Include="Views\AdvancedConfigView.xaml.cs">
+      <DependentUpon>AdvancedConfigView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ConfigView.xaml.cs">
+      <DependentUpon>ConfigView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DigestView.xaml.cs">
+      <DependentUpon>DigestView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DojoView.xaml.cs">
+      <DependentUpon>DojoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RedGreenRefactorControl.xaml.cs">
+      <DependentUpon>RedGreenRefactorControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shell.xaml.cs">
+      <DependentUpon>Shell.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Media\Change_Success_Excellent.wav" />
+    <Content Include="Media\Change_Success_Excellent2.wav" />
+    <Content Include="Media\Change_Success_Excellent3.wav" />
+    <Content Include="Media\Change_Success_Excellent4.wav" />
+    <Content Include="Media\Change_Success_Outstanding.wav" />
+    <Content Include="Media\Change_Success_WellDone.wav" />
+    <Content Include="Media\Change_Success_WellDone2.wav" />
+    <Content Include="Media\Change_Success_WellDone3.wav" />
+    <Content Include="Media\Change_TooLong_DontMakeMeLaugh.wav" />
+    <Content Include="Media\Change_TooLong_HahahaDontMakeMeLaugh.wav" />
+    <Content Include="Media\Change_TooLong_HahahaYouSuck.wav" />
+    <Content Include="Media\Change_TooLong_KahnLaugh.wav" />
+    <Content Include="Media\Change_TooLong_KahnLaugh2.wav" />
+    <Content Include="Media\Change_TooLong_YouAreNothing.wav" />
+    <Content Include="Media\End_Success_FlawlessVictory.wav" />
+    <Content Include="Media\End_Success_FlawlessVictory2.wav" />
+    <Content Include="Media\End_Success_FlawlessVictory3.wav" />
+    <Content Include="Media\End_Success_FlawlessVictory4.wav" />
+    <Content Include="Media\End_Success_JohnnyCageWins.wav" />
+    <Content Include="Media\End_Success_KanoWins.wav" />
+    <Content Include="Media\End_Success_LiuKangWins.wav" />
+    <Content Include="Media\End_Success_RaidenWins.wav" />
+    <Content Include="Media\End_Success_ScorpionWins.wav" />
+    <Content Include="Media\End_Success_SonyaWins.wav" />
+    <Content Include="Media\End_Success_SubZeroWins.wav" />
+    <Content Include="Media\Fight.wav" />
+    <Content Include="Media\RoundOne.wav" />
+    <Content Include="Media\StopIt_FinishHim.wav" />
+    <Content Include="Media\StopIt_FinishHim2.wav" />
+    <Content Include="Media\StopIt_FinishHim3.wav" />
+    <Content Include="Media\StopIt_PrepareToDie.wav" />
+    <Content Include="Media\StopIt_Scream.wav" />
+    <Content Include="Media\StopIt_Scream2.wav" />
+    <Content Include="Media\StopIt_YouSuck.wav" />
+    <Content Include="Media\StopIt_YouWeakPatheticFool.wav" />
+    <Resource Include="Resources\selectKey.png" />
+    <Resource Include="Resources\clock.png" />
+    <Resource Include="Resources\code.png" />
+    <Resource Include="Resources\config.png" />
+    <Resource Include="Resources\configBackground.png" />
+    <Resource Include="Resources\johnny-cage.gif" />
+    <Resource Include="Resources\kano.gif" />
+    <Resource Include="Resources\kombat.png" />
+    <Resource Include="Resources\liu-kang.gif" />
+    <Resource Include="Resources\cross.png" />
+    <Resource Include="Resources\back.png" />
+    <Resource Include="Resources\finishHimTimeActive.gif" />
+    <Content Include="Resources\Package.ico" />
+    <Resource Include="Resources\raiden.gif" />
+    <Resource Include="Resources\reptile.gif" />
+    <Resource Include="Resources\scorpion.gif" />
+    <Resource Include="Resources\sonya.gif" />
+    <Resource Include="Resources\YingYang.png" />
+    <None Include="Key.snk" />
+    <None Include="Resources\Images_32bit.bmp" />
+    <None Include="Resources\Images_24bit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Assets\ResourceDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AdvancedConfigView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ConfigView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DigestView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DojoView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\RedGreenRefactorControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shell.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite.Presentation\Composite.Presentation.Desktop.csproj">
+      <Project>{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}</Project>
+      <Name>Composite.Presentation.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite.UnityExtensions\Composite.UnityExtensions.Desktop.csproj">
+      <Project>{17831F3B-6B82-4916-BD2B-2CE2071EA622}</Project>
+      <Name>Composite.UnityExtensions.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite\Composite.Desktop.csproj">
+      <Project>{77138947-1D13-4E22-AEE0-5D0DD046CA34}</Project>
+      <Name>Composite.Desktop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

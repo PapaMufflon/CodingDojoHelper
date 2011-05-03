@@ -1,0 +1,19 @@
+*********************************************************************************
+This AmCharts software, AmCharts Bundle for WPF is free under a linkware license
+
+This means you may not remove or hide in any other way link to amcharts
+web site - wpf.amcharts.com.
+
+If you wish to remove the link, you should purchase a commercial license.
+
+You may not redistribute, sublicense or sell this program without written
+permission form amCharts, the author of amcharts software.
+
+This software is provided without warranty.
+*********************************************************************************
+A commercial version (without the link) is available at amCharts's website: 
+http://wpf.amcharts.com/buy/
+
+Please use amCharts Support Forum for any support queries:
+http://wpf.amcharts.com/forum
+*********************************************************************************

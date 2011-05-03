@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivateFinishHimTime" xml:space="preserve">
+    <value>Activate the Finish Him! time to provide a hard stop for the developer on the keyboard. It'll be impossible to continue typing if the time is due.</value>
+  </data>
+  <data name="AllCycleTimes" xml:space="preserve">
+    <value>The green line was your target time and the other line depicts the time of each of your TDD-cycles.</value>
+  </data>
+  <data name="AverageCycleTimeSoFar" xml:space="preserve">
+    <value>Your average TDD-cycle time so far.</value>
+  </data>
+  <data name="CanNotCreateWindow" xml:space="preserve">
+    <value>Can not create tool window.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Change_Success_Excellent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_Success_Excellent.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_Success_Excellent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_Success_Excellent2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_Success_Excellent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_Success_Excellent3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_Success_Excellent4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_Success_Excellent4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_Success_Outstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_Success_Outstanding.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_Success_WellDone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_Success_WellDone.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_Success_WellDone2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_Success_WellDone2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_Success_WellDone3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_Success_WellDone3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_TooLong_DontMakeMeLaugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_TooLong_DontMakeMeLaugh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_TooLong_HahahaDontMakeMeLaugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_TooLong_HahahaDontMakeMeLaugh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_TooLong_HahahaYouSuck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_TooLong_HahahaYouSuck.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_TooLong_KahnLaugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_TooLong_KahnLaugh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_TooLong_KahnLaugh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_TooLong_KahnLaugh2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Change_TooLong_YouAreNothing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Change_TooLong_YouAreNothing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DefineCycleTime" xml:space="preserve">
+    <value>The TDD-cycle time is the timespan of a full red-green-refactor mantra. Set your target time here and be aware of Shao Khan, who will comment on your achievings!</value>
+  </data>
+  <data name="DefineDojoTime" xml:space="preserve">
+    <value>Set how long your coding dojo-session should last. Preserve at least 5 minutes for a retrospective though.</value>
+  </data>
+  <data name="DefineNumberOfCombatants" xml:space="preserve">
+    <value>Define the number of combatants. Your overall statistics will be generated according to this number.</value>
+  </data>
+  <data name="End_Success_FlawlessVictory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_FlawlessVictory.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_FlawlessVictory2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_FlawlessVictory2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_FlawlessVictory3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_FlawlessVictory3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_FlawlessVictory4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_FlawlessVictory4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_JohnnyCageWins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_JohnnyCageWins.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_KanoWins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_KanoWins.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_LiuKangWins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_LiuKangWins.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_RaidenWins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_RaidenWins.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_ScorpionWins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_ScorpionWins.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_SonyaWins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_SonyaWins.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="End_Success_SubZeroWins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\End_Success_SubZeroWins.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Fight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\Fight.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GoToAdvancedConfig" xml:space="preserve">
+    <value>Ah, you're a config-guy. Feel free to customize it to your needs.</value>
+  </data>
+  <data name="ResultingAverageCycleTime" xml:space="preserve">
+    <value>This is your average TDD-cycle time.</value>
+  </data>
+  <data name="Round" xml:space="preserve">
+    <value>Round</value>
+  </data>
+  <data name="RoundOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\RoundOne.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Rounds" xml:space="preserve">
+    <value>Rounds</value>
+  </data>
+  <data name="SelectChangeDeveloperKey" xml:space="preserve">
+    <value>Define the key to press when you finished a full TDD-cycle and a new developer takes turn. Let Shao Khan tell you how good or bad your time was.</value>
+  </data>
+  <data name="SelectEndKataKey" xml:space="preserve">
+    <value>Define the key to press when you finished the complete code kata or when you think you trained enough.</value>
+  </data>
+  <data name="StartToCode" xml:space="preserve">
+    <value>You think you'll make a TDD-cycle in time? Go ahead!</value>
+  </data>
+  <data name="StopIt_FinishHim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\StopIt_FinishHim.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopIt_FinishHim2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\StopIt_FinishHim2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopIt_FinishHim3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\StopIt_FinishHim3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopIt_PrepareToDie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\StopIt_PrepareToDie.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopIt_Scream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\StopIt_Scream.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopIt_Scream2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\StopIt_Scream2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopIt_YouSuck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\StopIt_YouSuck.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopIt_YouWeakPatheticFool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Media\StopIt_YouWeakPatheticFool.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolWindowTitle" xml:space="preserve">
+    <value>Coding Dojo Helper</value>
+  </data>
+</root>
