@@ -7,10 +7,10 @@ using CodingDojoHelper.Events;
 using CodingDojoHelper.Helper;
 using CodingDojoHelper.Helper.Interfaces;
 using CodingDojoHelper.Views;
-using Microsoft.Practices.Composite.Events;
-using Microsoft.Practices.Composite.Modularity;
-using Microsoft.Practices.Composite.Regions;
-using Microsoft.Practices.Composite.UnityExtensions;
+using Microsoft.Practices.Prism.Events;
+using Microsoft.Practices.Prism.Modularity;
+using Microsoft.Practices.Prism.Regions;
+using Microsoft.Practices.Prism.UnityExtensions;
 using Microsoft.Practices.Unity;
 
 namespace CodingDojoHelper
@@ -110,7 +110,7 @@ namespace CodingDojoHelper
             _mainRegion.Activate(_mainRegion.Views.OfType<AdvancedConfigView>().First());
         }
 
-        protected override IModuleCatalog GetModuleCatalog()
+        protected override IModuleCatalog CreateModuleCatalog()
         {
             return new ConfigurationModuleCatalog();
         }

@@ -37,16 +37,33 @@
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Practices.ObjectBuilder2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\packages\Prism.4.0.0.0\lib\NET40\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity">
+      <HintPath>..\packages\Prism.4.0.0.0\lib\NET40\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.2.1.505.0\lib\NET35\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\packages\Unity.2.1.505.0\lib\NET35\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>..\External Libraries\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.5.10.11092\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.mocks">
+      <HintPath>..\packages\NUnit.2.5.10.11092\lib\nunit.mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="pnunit.framework">
+      <HintPath>..\packages\NUnit.2.5.10.11092\lib\pnunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="Rhino.Mocks">
-      <HintPath>..\External Libraries\Rhino.Mocks.dll</HintPath>
+      <HintPath>..\packages\RhinoMocks.3.6\lib\Rhino.Mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -70,18 +87,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite.Presentation\Composite.Presentation.Desktop.csproj">
-      <Project>{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}</Project>
-      <Name>Composite.Presentation.Desktop</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite.UnityExtensions\Composite.UnityExtensions.Desktop.csproj">
-      <Project>{17831F3B-6B82-4916-BD2B-2CE2071EA622}</Project>
-      <Name>Composite.UnityExtensions.Desktop</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite\Composite.Desktop.csproj">
-      <Project>{77138947-1D13-4E22-AEE0-5D0DD046CA34}</Project>
-      <Name>Composite.Desktop</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CodingDojoHelper\CodingDojoHelper.csproj">
       <Project>{A85CD74C-C731-4F1A-B910-1301AF5AFA6D}</Project>
       <Name>CodingDojoHelper</Name>
@@ -90,6 +95,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Key.snk" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

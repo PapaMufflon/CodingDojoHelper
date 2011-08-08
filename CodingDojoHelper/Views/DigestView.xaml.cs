@@ -2,7 +2,7 @@
 using System.Windows;
 using CodingDojoHelper.Events;
 using CodingDojoHelper.ViewModels;
-using Microsoft.Practices.Composite.Events;
+using Microsoft.Practices.Prism.Events;
 
 namespace CodingDojoHelper.Views
 {

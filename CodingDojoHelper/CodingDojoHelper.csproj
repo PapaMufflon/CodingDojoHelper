@@ -40,12 +40,29 @@
     <Reference Include="AmCharts.Windows">
       <HintPath>..\External Libraries\amCharts\AmCharts.Windows.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\packages\Prism.4.0.0.0\lib\NET40\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity">
+      <HintPath>..\packages\Prism.4.0.0.0\lib\NET40\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
+      <HintPath>..\packages\Prism.UnityExtensions.4.0.0.0\lib\NET40\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.2.1.505.0\lib\NET35\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\packages\Unity.2.1.505.0\lib\NET35\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="PresentationFramework.Aero" />
     <Reference Include="Rhino.Mocks">
-      <HintPath>..\External Libraries\Rhino.Mocks.dll</HintPath>
+      <HintPath>..\packages\RhinoMocks.3.6\lib\Rhino.Mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -176,6 +193,7 @@
     <Resource Include="Resources\sonya.gif" />
     <Resource Include="Resources\YingYang.png" />
     <None Include="Key.snk" />
+    <None Include="packages.config" />
     <None Include="Resources\Images_32bit.bmp" />
     <None Include="Resources\Images_24bit.bmp" />
   </ItemGroup>
@@ -208,20 +226,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite.Presentation\Composite.Presentation.Desktop.csproj">
-      <Project>{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}</Project>
-      <Name>Composite.Presentation.Desktop</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite.UnityExtensions\Composite.UnityExtensions.Desktop.csproj">
-      <Project>{17831F3B-6B82-4916-BD2B-2CE2071EA622}</Project>
-      <Name>Composite.UnityExtensions.Desktop</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite\Composite.Desktop.csproj">
-      <Project>{77138947-1D13-4E22-AEE0-5D0DD046CA34}</Project>
-      <Name>Composite.Desktop</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources.resx">

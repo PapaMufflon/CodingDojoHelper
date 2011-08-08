@@ -1,4 +1,4 @@
-﻿using Microsoft.Practices.Composite.Presentation.Events;
+﻿using Microsoft.Practices.Prism.Events;
 
 namespace CodingDojoHelper.Events
 {

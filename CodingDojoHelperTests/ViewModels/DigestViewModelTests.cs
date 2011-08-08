@@ -5,7 +5,7 @@ using CodingDojoHelper;
 using CodingDojoHelper.Events;
 using CodingDojoHelper.Helper.Interfaces;
 using CodingDojoHelper.ViewModels;
-using Microsoft.Practices.Composite.Events;
+using Microsoft.Practices.Prism.Events;
 using NUnit.Framework;
 using Rhino.Mocks;
 

@@ -5,7 +5,7 @@ using System.ComponentModel;
 using CodingDojoHelper.Events;
 using CodingDojoHelper.Helper;
 using CodingDojoHelper.Helper.Interfaces;
-using Microsoft.Practices.Composite.Events;
+using Microsoft.Practices.Prism.Events;
 
 namespace CodingDojoHelper.ViewModels
 {

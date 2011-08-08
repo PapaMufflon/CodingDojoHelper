@@ -9,12 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		IntegrationTests.testsettings = IntegrationTests.testsettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Desktop", "..\..\..\Program Files\Prism\CAL\Desktop\Composite\Composite.Desktop.csproj", "{77138947-1D13-4E22-AEE0-5D0DD046CA34}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Presentation.Desktop", "..\..\..\Program Files\Prism\CAL\Desktop\Composite.Presentation\Composite.Presentation.Desktop.csproj", "{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.UnityExtensions.Desktop", "..\..\..\Program Files\Prism\CAL\Desktop\Composite.UnityExtensions\Composite.UnityExtensions.Desktop.csproj", "{17831F3B-6B82-4916-BD2B-2CE2071EA622}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojoHelperTests", "CodingDojoHelperTests\CodingDojoHelperTests.csproj", "{0250D922-6C09-4B59-B0DB-238840861362}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojoHelper", "CodingDojoHelper\CodingDojoHelper.csproj", "{A85CD74C-C731-4F1A-B910-1301AF5AFA6D}"
@@ -44,36 +38,6 @@ Global
 		{F70DFE6F-979B-4DE2-BC97-8C086D1AAB14}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{F70DFE6F-979B-4DE2-BC97-8C086D1AAB14}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F70DFE6F-979B-4DE2-BC97-8C086D1AAB14}.Release|x86.ActiveCfg = Release|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|x86.ActiveCfg = Release|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}.Release|x86.ActiveCfg = Release|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|x86.ActiveCfg = Release|Any CPU
 		{0250D922-6C09-4B59-B0DB-238840861362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0250D922-6C09-4B59-B0DB-238840861362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0250D922-6C09-4B59-B0DB-238840861362}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -107,5 +71,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal

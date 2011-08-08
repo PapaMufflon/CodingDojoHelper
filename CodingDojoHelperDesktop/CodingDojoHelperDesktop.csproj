@@ -36,6 +36,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\packages\Prism.4.0.0.0\lib\NET40\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity">
+      <HintPath>..\packages\Prism.4.0.0.0\lib\NET40\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
+      <HintPath>..\packages\Prism.UnityExtensions.4.0.0.0\lib\NET40\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -86,6 +98,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,18 +107,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite.Presentation\Composite.Presentation.Desktop.csproj">
-      <Project>{F807062D-6FC9-4FF0-A9F5-5F94653EDC4D}</Project>
-      <Name>Composite.Presentation.Desktop</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite.UnityExtensions\Composite.UnityExtensions.Desktop.csproj">
-      <Project>{17831F3B-6B82-4916-BD2B-2CE2071EA622}</Project>
-      <Name>Composite.UnityExtensions.Desktop</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Program Files\Prism\CAL\Desktop\Composite\Composite.Desktop.csproj">
-      <Project>{77138947-1D13-4E22-AEE0-5D0DD046CA34}</Project>
-      <Name>Composite.Desktop</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CodingDojoHelper\CodingDojoHelper.csproj">
       <Project>{A85CD74C-C731-4F1A-B910-1301AF5AFA6D}</Project>
       <Name>CodingDojoHelper</Name>
