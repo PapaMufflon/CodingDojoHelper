@@ -38,8 +38,8 @@
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AmCharts.Windows">
-      <HintPath>..\External Libraries\amCharts\AmCharts.Windows.dll</HintPath>
+    <Reference Include="AmCharts.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6a0af00bd7de39d1, processorArchitecture=MSIL">
+      <HintPath>..\packages\amChartsQuickCharts.1.1\lib\net35\AmCharts.Windows.dll</HintPath>
     </Reference>
     <Reference Include="AmCharts.Windows.QuickCharts">
       <HintPath>..\packages\amChartsQuickCharts.1.1\lib\net35\AmCharts.Windows.QuickCharts.dll</HintPath>
